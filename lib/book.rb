@@ -8,12 +8,6 @@ class Book
     GENRE << g
   end
 
-  def self.genre
-    GENRE << self.genre
-  end
-
-
-
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
