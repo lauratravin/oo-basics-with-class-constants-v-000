@@ -5,12 +5,8 @@ class Shoe
   def initialize(brand)
     ans = false
     @brand = brand
-    BRANDS.each_char { |chr| if chr != brand
-                          ans = true
-                        else
-                          ans = false
-                        end
-                     }
+  
+
     if ans
     BRANDS << brand
     end
