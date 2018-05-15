@@ -3,9 +3,9 @@ class Shoe
   attr_reader :brand
   BRANDS = []
   def initialize(brand)
-    ans = false
+    ans = true
     @brand = brand
-  
+
 
     if ans
     BRANDS << brand
